@@ -38,7 +38,7 @@ public class MontiHoll {
                 Box blackBox = new Box();
 
                 you.selectBox(randomSelect);
-                int teachedIndexNum=blackBox.TeachFalseIndex();
+                int teachedIndexNum=blackBox.teachFalseIndex();
                 //選択を変更した場合
                 if(changeBoxIndex){
                     randomSelectOld=randomSelect;
