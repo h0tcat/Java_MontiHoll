@@ -17,7 +17,7 @@ public class Box{
     }
 
     //ハズレの箱を教える
-    public int TeachFalseIndex(){
+    public int teachFalseIndex(){
         boolean isTrueElement;
         for(int boxIndex=0;boxIndex<3;boxIndex++){
             isTrueElement=blackBox.get(boxIndex);
